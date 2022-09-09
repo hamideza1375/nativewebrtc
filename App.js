@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { View, Button, TextInput, Text } from 'react-native';
 import SocketIOClient from 'socket.io-client';
+// import { mediaDevices, RTCPeerConnection, RTCSessionDescription, RTCView, RTCIceCandidate } from './Webrtc';
 import { mediaDevices, RTCPeerConnection, RTCSessionDescription, RTCView, RTCIceCandidate } from 'react-native-webrtc';
 const configuration = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }] };
 
